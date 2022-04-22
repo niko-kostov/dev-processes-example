@@ -7,7 +7,7 @@ import io.cucumber.java.en.Then;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class Stepdefs {
-    Calculator calculator;
+    Calculator calculator = new Calculator();
     Integer number1;
     Integer number2;
 
